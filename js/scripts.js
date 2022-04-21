@@ -14,5 +14,6 @@ $(document).ready(function() {
   $("#range").submit(function(event) {
     event.preventDefault();
     const numberInput = parseInt($("#number").val());
+    $("#output").text(numberInput);
   });
 });
