@@ -1,6 +1,8 @@
 function rangeFinder(num) {
-  let numArray = num.toString().split("").map(Number);
-
+  let numArray = [];
+  for(i = 0; i <= num; i++) {
+    numArray.push(i);
+  }
   return numArray;
 }
 
@@ -14,6 +16,7 @@ $(document).ready(function() {
   $("#range").submit(function(event) {
     event.preventDefault();
     const numberInput = parseInt($("#number").val());
-    $("#output").text(numberInput);
+
+    $("#output").html(numberInput);
   });
 });
