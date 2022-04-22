@@ -16,6 +16,8 @@ function beepBoop(num) {
       newArray.push("Won't you be my neighbor?");
     }
   }
+  newArray.join(" ");
+  return newArray;
 }
 
 
