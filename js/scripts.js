@@ -3,21 +3,19 @@ function rangeFinder(num) {
   for(i = 0; i <= num; i++) {
     numArray.push(i);
   }
-
+  let numArray2 = numArray.toString().split(',');
   return numArray;
 }
 
 function beepBoop(num) {
-  let rangeArray = rangeFinder(num);
-  let newArray = [];
-
-  for (let i = 0; i < rangeArray.length; i++) {
-    if(rangeArray[i].toString().includes(3)) {
-      newArray.push("Won't you be my neighbor?");
+  const rangeArray =[];
+  const newNumArray = rangeFinder(num);
+  newNumArray.forEach(function(num){
+    if(num.includes("3")) {
+      rangeArray.push("Won't you be my neighbor?");
     }
-  }
-  newArray.join(" ");
-  return newArray;
+  });
+  return rangeArray;
 }
 
 
