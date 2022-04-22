@@ -4,23 +4,25 @@ function rangeFinder(num) {
     numArray.push(i);
   }
   let numArray2 = numArray.toString().split(',');
-  return numArray;
+  return numArray2;
 }
 
 function beepBoop(num) {
   const rangeArray =[];
   const newNumArray = rangeFinder(num);
-  newNumArray.forEach(function(num){
+  newNumArray.forEach(function(num) {
     if(num.includes("3")) {
       rangeArray.push("Won't you be my neighbor?");
+    } else if (num.includes("2")) {
+      rangeArray.push("Boop!")
+    } else if (num.includes("1")) {
+      rangeArray.push("Beep!")
+    } else {
+      rangeArray.push(num);
     }
   });
   return rangeArray;
 }
-
-
-
-
 
 
 

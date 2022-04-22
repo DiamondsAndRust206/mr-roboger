@@ -9,3 +9,7 @@ Describe: beepBoop()
 Test: "Replace numbers containing 3 to "Won't you be my neighbor"."
 Code:  
 Expected Output: "Won't you be my neighbor"
+
+Test: "Replace 2 with boop and 1 with beep"
+Code:
+Expected Output: boop and beep
