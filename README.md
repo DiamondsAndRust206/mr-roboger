@@ -20,7 +20,7 @@ Expected Output: boop and beep
 #### By Timothy Ryan Gibson
 #### _A simple web application to creat a list of numbers based on the users input and replace the values accordingly._
 
-_Link to [mr-robogers](https://diamondsandrust206.github.io/mr-robogers/)_
+_Link to [mr-roboger](https://diamondsandrust206.github.io/mr-roboger/)_
 
 ## Technologies used
 
