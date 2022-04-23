@@ -1,3 +1,5 @@
+//Business logic
+
 function rangeFinder(num) {
   let numArray = [];
   for(i = 0; i <= num; i++) {
@@ -24,13 +26,17 @@ function beepBoop(num) {
   return rangeArray;
 }
 
-
+//UI Logic
 
 $(document).ready(function() {
   $("#range").submit(function(event) {
     event.preventDefault();
-    const numberInput = parseInt($("#number").val());
 
-    $("#output").html(numberInput);
+    const numberInput = parseInt($("#number").val());
+    const results = beepBoop(numberInput);
+    results.forEach(function() {
+      $("#output").text(results);
+    });
+    
   });
 });
