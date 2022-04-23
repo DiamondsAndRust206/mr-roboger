@@ -37,7 +37,7 @@ _This web application will ask the user for a number. The application will creat
 
 ## Setup/Installation Requirements
 
-* At https://github.com/DiamondsAndRust206/mr-robogers copy the repository URL named "mr-robogers". You can do this by clicking the green Code button and copy the URL from there.
+* At https://github.com/DiamondsAndRust206/mr-roboger copy the repository URL named "mr-robogers". You can do this by clicking the green Code button and copy the URL from there.
 * In a shell program, clone the copied repository to your desktop (git clone URL).
 * Open the newly cloned directory named "mr-robogers".
 * From this directory, open index.html
