@@ -1,7 +1,15 @@
 body {
-  background-image: url("https://149360821.v2.pressablecdn.com/wp-content/uploads/2017/09/Mr.-Robot-Mr.-Rogers-Mashup.jpg");
+  /*background-image: url("https://149360821.v2.pressablecdn.com/wp-content/uploads/2017/09/Mr.-Robot-Mr.-Rogers-Mashup.jpg");*/
   color:beige;
   text-align: center;
+  background-color: rgb(24, 23, 23);
+}
+
+#rogers {
+  width: 35%;
+  border: 10px;
+  padding: 10px;
+  margin: 15px;
 }
 
 h1 {
@@ -19,4 +27,13 @@ label {
   color:dodgerblue;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#number {
+  width: 350px;
+  margin-left:380px;
+}
+
+#output {
+  color:crimson;
 }
